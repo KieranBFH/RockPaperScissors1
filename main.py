@@ -51,7 +51,7 @@ if mode == 'm':
         print("Player 2 Won")
 
 else:
-    p1 = input("Player 1: Rock Paper or Scissors?")
+    p1 = input("Player 1: Rock Paper or Scissors? ")
     p2 = random.choice(ai)
     result = whowon()
     if result == -1:

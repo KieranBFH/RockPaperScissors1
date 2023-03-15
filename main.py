@@ -6,9 +6,9 @@ p2 = " "
 
 def whowon():
     global p1
-    p1.capitalize()
+    p1 = p1.capitalize()
     global p2
-    p2.capitalize()
+    p2 = p2.capitalize()
     if p1 == p2:
         return(0)
     elif p1 == "Rock":
